@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/esm/Button";
 import Image from "react-bootstrap/Image";
 import img1 from "../assets/img-1.png";
+import eric from "../assets/eric.png";
 
 function Hero() {
   return (
@@ -12,22 +13,23 @@ function Hero() {
         <Row className='flex-column-reverse flex-lg-row'>
           <Col className='hero-content text-lg-start text-center'>
             <h1 className='hero-heading'>
-              Hello, I'm <span>Eric Hoover</span>. Software Engineer
+              <div>Hello, I'm</div>
+              <span>Eric Hoover</span>
             </h1>
-            <p className='sub-heading'>Explore careers, compare colleges, and form your plan</p>
+            <p className='sub-heading'>Software Engineer | Empathy Advocate | MBA</p>
             <div className=''>
               <div className='' style={{ display: "inline-block" }}>
-                <Button className='custom-btn'>Start Now</Button>
+                <Button className='custom-btn'>Contact Me</Button>
               </div>
 
               <div className='btn-transparent' style={{ display: "inline-block" }}>
-                <Button className='custom-btn'>Login</Button>
+                <Button className='custom-btn'>LinkedIn</Button>
               </div>
             </div>
           </Col>
           <Col>
             <div className='hero-image-cover'>
-              <Image src={img1} className='hero-image' />
+              <Image src={eric} className='hero-image' />
             </div>
           </Col>
         </Row>

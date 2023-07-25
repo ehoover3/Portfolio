@@ -1,18 +1,18 @@
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
-import CareerBox from "./career-box";
+import SkillsBox from "./Skills-box";
 import img2 from "../assets/img-2.png";
 import img3 from "../assets/img-3.png";
 import img4 from "../assets/img-4.png";
 import img5 from "../assets/img-5.png";
 import Heading from "./heading";
 
-function Career() {
+function Skills() {
   return (
     <div className='career'>
       <Container>
         <div className='heading'>
-          <Heading title='Projects' />
+          <Heading title='Skills' />
           <div className='heading-link'>
             <a href='#'>
               See All
@@ -28,14 +28,14 @@ function Career() {
           </div>
         </div>
         <Row className='justify-content-center'>
-          <CareerBox img={img2} title='Teacher' salary='Salary $81,220' />
-          <CareerBox img={img3} title='Nurse' salary='Salary $81,220' />
-          <CareerBox img={img4} title='Engineer' salary='Salary $81,220' />
-          <CareerBox img={img5} title='Accountant' salary='Salary $81,220' />
+          <SkillsBox img={img2} title='Career Plan Today' />
+          <SkillsBox img={img3} title='Politician Filter' />
+          <SkillsBox img={img5} title='Cloud Exam' />
+          <SkillsBox img={img4} title='Trio Code Academy' />
         </Row>
       </Container>
     </div>
   );
 }
 
-export default Career;
+export default Skills;

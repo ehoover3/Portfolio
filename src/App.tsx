@@ -5,9 +5,9 @@ import "./App.css";
 
 import Navigation from "./components/navbar";
 import Hero from "./components/hero";
-import Career from "./components/career";
-import Colleges from "./components/colleges";
-import Plan from "./components/plan";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Plan from "./components/About";
 import AboutUs from "./components/about-us";
 import ChooseCareer from "./components/choose-career";
 import Footer from "./components/footer";
@@ -17,12 +17,12 @@ function App() {
     <div className='App'>
       <Navigation />
       <Hero />
-      <Career />
-      <Colleges />
-      <Plan />
+      {/* <Skills /> */}
+      <Projects />
+      {/* <Plan /> */}
       <AboutUs />
       {/* <Testimonial /> */}
-      <ChooseCareer />
+      {/* <ChooseCareer /> */}
       <Footer />
     </div>
   );
