@@ -9,7 +9,7 @@ function Navigation() {
         {/* <Navbar.Brand className='logo' href='#'> */}
         {/* Eric Hoover */}
         {/* </Navbar.Brand> */}
-        <Navbar.Toggle aria-controls='navbarScroll' />
+        {/* <Navbar.Toggle aria-controls='navbarScroll' /> */}
 
         <Navbar.Collapse>
           {/* <Nav className='ms-auto me-auto my-2 my-lg-0' style={{ maxHeight: "100px" }}> */}
