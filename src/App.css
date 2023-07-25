@@ -231,8 +231,8 @@ p {
   }
 }
 
-/* Career */
-.career {
+/* Skills */
+.skills {
   padding: 40px 0;
 }
 
@@ -297,7 +297,7 @@ p {
   border-radius: 12px;
 }
 
-.career-box-card-text {
+.skills-box-card-text {
   position: absolute;
   bottom: 30px;
   left: 30px;
@@ -313,8 +313,8 @@ p {
   font-weight: 400;
 }
 
-/* Colleges */
-.colleges {
+/* Projects */
+.projects {
   background-color: #58cc02;
   padding: 40px 0;
 }
@@ -331,48 +331,48 @@ p {
   background-color: #000;
 }
 
-.college-box .card {
+.projects-box .card {
   padding: 50px 20px 30px 20px;
   height: 350px;
 }
 
-.colleges-card-img {
+.projects-card-img {
   width: 150px;
   height: 150px;
 }
 
-.colleges-img {
+.projects-img {
   max-width: 100%;
   object-fit: contain;
 }
 
-.college-box .card .colleges-card-text {
+.projects-box .card .projects-card-text {
   margin-top: 20px;
 }
 
-.college-box .card .colleges-card-text .card-text {
+.projects-box .card .projects-card-text .card-text {
   font-size: 18px;
   font-weight: 500;
   color: #615353;
 }
 
-/* Plan */
-.plan {
+/* Education */
+.education {
   padding: 40px 0;
 }
-.plan-box .card {
+.education-box .card {
   box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 20px 30px 20px;
   height: 376px;
 }
 
 @media (max-width: 767px) {
-  .plan-box .card {
+  .education-box .card {
     padding: 20px;
   }
 }
 
-.plans-card-img {
+.education-card-img {
   width: 168px;
   height: 168px;
   background-color: #e8f7fe;
@@ -383,16 +383,16 @@ p {
   justify-content: center;
 }
 
-.plans-img {
+.education-img {
   max-width: 80%;
   object-fit: contain;
 }
 
-.plans-card-text {
+.education-card-text {
   margin-top: 20px;
 }
 
-.plans-card-text .card-text {
+.education-card-text .card-text {
   font-size: 18px;
   font-weight: 500;
   color: #615353;
@@ -495,12 +495,12 @@ p {
   opacity: 1;
 }
 
-/* Choose Career */
-.choose-career {
+/* Choose Skills */
+.choose-skills {
   padding: 40px 0;
 }
 
-.choose-career .card-img-overlay {
+.choose-skills .card-img-overlay {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -511,7 +511,7 @@ p {
 @media (max-width: 767px) {
 }
 
-.choose-career .card-text {
+.choose-skills .card-text {
   max-width: 700px;
   font-size: 20px;
   font-weight: 400;
@@ -529,7 +529,7 @@ p {
   }
 }
 
-.choose-career-heading .secondary-heading {
+.choose-skills-heading .secondary-heading {
   @media (max-width: 767px) {
     font-size: 40px;
   }
@@ -538,7 +538,7 @@ p {
   }
 }
 
-.choose-career .custom-btn {
+.choose-skills .custom-btn {
   @media (max-width: 573px) {
     font-size: 20px;
     padding: 15px 40px;

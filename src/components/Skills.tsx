@@ -9,7 +9,7 @@ import Heading from "./heading";
 
 function Skills() {
   return (
-    <div className='career'>
+    <div className='skills'>
       <Container>
         <div className='heading'>
           <Heading title='Skills' />
@@ -28,11 +28,11 @@ function Skills() {
           </div>
         </div>
         <Row className='justify-content-center'>
-          <SkillsBox img={img2} title='Career Plan Today' />
+          <SkillsBox img={img2} title='Skills' />
           <SkillsBox img={img3} title='Politician Filter' />
           <SkillsBox img={img5} title='Cloud Exam' />
           <SkillsBox img={img4} title='Trio Code Academy' />
-          <SkillsBox img={img2} title='Career Plan Today' />
+          <SkillsBox img={img2} title='Skills' />
           <SkillsBox img={img3} title='Politician Filter' />
           <SkillsBox img={img5} title='Cloud Exam' />
           <SkillsBox img={img4} title='Trio Code Academy' />

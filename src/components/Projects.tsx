@@ -9,7 +9,7 @@ import img1svg from "../assets/icon-1.svg";
 
 function Projects() {
   return (
-    <div className='colleges'>
+    <div className='projects'>
       <Container>
         <div className='heading dark-heading'>
           <Heading title='Projects' />
