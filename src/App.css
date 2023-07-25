@@ -334,6 +334,11 @@ p {
 .projects-box .card {
   padding: 50px 20px 30px 20px;
   height: 350px;
+  transition: transform 0.3s ease;
+}
+
+.projects-box .card:hover {
+  transform: scale(1.05); /* Increase the size by 10% (1.1 times) */
 }
 
 .projects-card-img {
@@ -364,6 +369,7 @@ p {
   box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 20px 30px 20px;
   height: 376px;
+  cursor: auto;
 }
 
 @media (max-width: 767px) {

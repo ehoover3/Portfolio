@@ -3,7 +3,6 @@ import Row from "react-bootstrap/esm/Row";
 import EducationBox from "./EducationBox";
 import IndianaUniversity from "../assets/IndianaUniversity.png";
 import PurdueUniversitiy from "../assets/PurdueUniversitiy.png";
-import img3 from "../assets/icon-3.svg";
 import Heading from "./heading";
 
 function Education() {

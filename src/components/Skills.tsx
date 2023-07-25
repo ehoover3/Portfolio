@@ -1,6 +1,6 @@
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
-import SkillsBox from "./Skills-box";
+import SkillsBox from "./SkillsBox";
 import img2 from "../assets/PurdueUniversitiy.png";
 import img3 from "../assets/img-9.png";
 import img4 from "../assets/img-9.png";

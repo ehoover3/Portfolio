@@ -1,6 +1,6 @@
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
-import ProjectsBox from "./Projects-box";
+import ProjectsBox from "./ProjectsBox";
 import img1 from "../assets/img-6.png";
 import img2 from "../assets/img-7.png";
 import img3 from "../assets/img-8.png";

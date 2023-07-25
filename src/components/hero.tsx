@@ -24,14 +24,16 @@ function Hero() {
                 </Button>
               </div>
 
-              {/* <div className='btn-transparent' style={{ display: "inline-block" }}>
-                <Button className='custom-btn'>LinkedIn</Button>
-              </div> */}
+              <div className='btn-transparent' style={{ display: "inline-block" }}>
+                <Button className='custom-btn' href='../assets/EricHoover-Resume.pdf'>
+                  Résumé
+                </Button>
+              </div>
             </div>
           </Col>
           <Col>
             <div className='hero-image-cover'>
-              <Image src={eric} className='hero-image' />
+              <Image src={eric} alt='profile' className='hero-image' />
             </div>
           </Col>
         </Row>
