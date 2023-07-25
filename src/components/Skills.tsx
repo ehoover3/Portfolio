@@ -1,10 +1,10 @@
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import SkillsBox from "./Skills-box";
-import img2 from "../assets/img-2.png";
-import img3 from "../assets/img-3.png";
-import img4 from "../assets/img-4.png";
-import img5 from "../assets/img-5.png";
+import img2 from "../assets/PurdueUniversitiy.png";
+import img3 from "../assets/img-9.png";
+import img4 from "../assets/img-9.png";
+import img5 from "../assets/img-9.png";
 import Heading from "./heading";
 
 function Skills() {
@@ -28,6 +28,10 @@ function Skills() {
           </div>
         </div>
         <Row className='justify-content-center'>
+          <SkillsBox img={img2} title='Career Plan Today' />
+          <SkillsBox img={img3} title='Politician Filter' />
+          <SkillsBox img={img5} title='Cloud Exam' />
+          <SkillsBox img={img4} title='Trio Code Academy' />
           <SkillsBox img={img2} title='Career Plan Today' />
           <SkillsBox img={img3} title='Politician Filter' />
           <SkillsBox img={img5} title='Cloud Exam' />

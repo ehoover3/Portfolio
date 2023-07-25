@@ -509,9 +509,6 @@ p {
 }
 
 @media (max-width: 767px) {
-  #choose-career-img {
-    content: url("./assets/img-11.png");
-  }
 }
 
 .choose-career .card-text {

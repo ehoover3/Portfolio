@@ -7,9 +7,8 @@ import Navigation from "./components/navbar";
 import Hero from "./components/hero";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import Plan from "./components/About";
-import AboutUs from "./components/about-us";
-import ChooseCareer from "./components/choose-career";
+import Education from "./components/Education";
+import About from "./components/About";
 import Footer from "./components/footer";
 
 function App() {
@@ -17,12 +16,11 @@ function App() {
     <div className='App'>
       <Navigation />
       <Hero />
-      {/* <Skills /> */}
       <Projects />
-      {/* <Plan /> */}
-      <AboutUs />
-      {/* <Testimonial /> */}
-      {/* <ChooseCareer /> */}
+      {/* <Skills /> */}
+      <Education />
+      <About />
+
       <Footer />
     </div>
   );
