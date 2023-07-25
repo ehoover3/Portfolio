@@ -6,20 +6,23 @@ import img1 from "../assets/img-9.png";
 import ListGroup from "react-bootstrap/ListGroup";
 import Heading from "./heading";
 
+import img from "../assets/img.png";
+
 function AboutUs() {
   return (
     <div className='about-us'>
       <Container>
         <Row className='flex-lg-row flex-column'>
           <Col>
-            <Image src={img1} />
+            <Image src={img} />
           </Col>
           <Col className='about-us-content'>
             <div className='mb-3'>
               <Heading title='About Me' />
             </div>
             <p className='sub-heading'>
-              Lörem ipsum besost lant: sakroll. Tris koskade och vindvändare. Nevossa bedins. Miras kaktig. Dinägönade denat. Psykostat anömegen.{" "}
+              I’m a full-stack software engineer with a passion for empathy and a love for understanding how businesses can deliver greater value to
+              the people they serve.
             </p>
             <ListGroup>
               <ListGroup.Item className='d-flex align-items-center'>
@@ -31,7 +34,7 @@ function AboutUs() {
                     />
                   </svg>
                 </div>
-                <p>Lörem ipsum besost lant: sakroll.</p>
+                <p>Technologies include HTML, CSS, JavaScript, Typescript, React, Redux, and AWS</p>
               </ListGroup.Item>
               <ListGroup.Item className='d-flex align-items-center'>
                 <div className='check'>
@@ -42,7 +45,7 @@ function AboutUs() {
                     />
                   </svg>
                 </div>
-                <p>Lörem ipsum besost lant: sakroll.</p>
+                <p>Certifications incude AWS Developer Associate, AWS Cloud Practitioner, and Certified SAFe® 5 Practitioner</p>
               </ListGroup.Item>
               <ListGroup.Item className='d-flex align-items-center'>
                 <div className='check'>
@@ -53,7 +56,10 @@ function AboutUs() {
                     />
                   </svg>
                 </div>
-                <p>Lörem ipsum besost lant: sakroll.</p>
+                <p>
+                  Favorite empathy concepts include understanding needs, communicating diplomatically, setting healthy boundaries, and connecting with
+                  people in meaningful ways.
+                </p>
               </ListGroup.Item>
             </ListGroup>
           </Col>

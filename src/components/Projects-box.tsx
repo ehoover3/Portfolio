@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 function ProjectsBox(props: any) {
   return (
     <Col className='college-box' lg={4} sm={6}>
-      <a href='#' style={{ textDecoration: "none" }}>
+      <a href={props.href} style={{ textDecoration: "none" }}>
         <Card className='text-center'>
           <div className='m-auto colleges-card-img'>
             <Card.Img variant='top' src={props.img} className='colleges-img' />

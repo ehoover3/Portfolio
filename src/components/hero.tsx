@@ -19,12 +19,14 @@ function Hero() {
             <p className='sub-heading'>Software Engineer | Empathy Advocate | MBA</p>
             <div className=''>
               <div className='' style={{ display: "inline-block" }}>
-                <Button className='custom-btn'>Contact Me</Button>
+                <Button href={"https://www.linkedin.com/in/hoov/"} className='custom-btn'>
+                  LinkedIn
+                </Button>
               </div>
 
-              <div className='btn-transparent' style={{ display: "inline-block" }}>
+              {/* <div className='btn-transparent' style={{ display: "inline-block" }}>
                 <Button className='custom-btn'>LinkedIn</Button>
-              </div>
+              </div> */}
             </div>
           </Col>
           <Col>
