@@ -3,8 +3,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/esm/Button";
 import Image from "react-bootstrap/Image";
-import img1 from "../assets/img-1.png";
 import eric from "../assets/eric.png";
+// import resumePDF from "../assets/EricHoover-Resume.pdf";
 
 function Hero() {
   return (
@@ -24,11 +24,11 @@ function Hero() {
                 </Button>
               </div>
 
-              <div className='btn-transparent' style={{ display: "inline-block" }}>
-                <Button className='custom-btn' href='../assets/EricHoover-Resume.pdf'>
+              {/* <div className='btn-transparent' style={{ display: "inline-block" }}>
+                <Button className='custom-btn' href={"../assets/EricHoover-Resume.pdf"}>
                   Résumé
                 </Button>
-              </div>
+              </div> */}
             </div>
           </Col>
           <Col>
