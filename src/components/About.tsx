@@ -34,31 +34,13 @@ function About() {
                     />
                   </svg>
                 </div>
-                <p>Technologies include HTML, CSS, JavaScript, Typescript, React, Redux, and AWS</p>
-              </ListGroup.Item>
-              <ListGroup.Item className='d-flex align-items-center'>
-                <div className='check'>
-                  <svg width='21' height='12' viewBox='0 0 31 22' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                    <path
-                      d='M9.91273 17.2739L2.87296 10.4609L0.526367 12.7319L9.91273 21.8159L30.0264 2.35012L27.6798 0.0791016L9.91273 17.2739Z'
-                      fill='black'
-                    />
-                  </svg>
-                </div>
-                <p>Certifications incude AWS Developer Associate, AWS Cloud Practitioner, and Certified SAFe® 5 Practitioner</p>
-              </ListGroup.Item>
-              <ListGroup.Item className='d-flex align-items-center'>
-                <div className='check'>
-                  <svg width='21' height='12' viewBox='0 0 31 22' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                    <path
-                      d='M9.91273 17.2739L2.87296 10.4609L0.526367 12.7319L9.91273 21.8159L30.0264 2.35012L27.6798 0.0791016L9.91273 17.2739Z'
-                      fill='black'
-                    />
-                  </svg>
-                </div>
                 <p>
-                  Favorite empathy concepts include understanding needs, communicating diplomatically, setting healthy boundaries, and connecting with
-                  people in meaningful ways.
+                  Certifications incude:
+                  <li>AWS SysOps Administrator Associate</li>
+                  <li>AWS Solutions Architect Associate</li>
+                  <li>AWS Developer Associate</li>
+                  <li>AWS Cloud Practitioner</li>
+                  <li>Certified SAFe® 5 Practitioner</li>
                 </p>
               </ListGroup.Item>
             </ListGroup>
