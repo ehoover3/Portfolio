@@ -20,7 +20,7 @@ function About() {
             <div className='mb-3'>
               <Heading title='About Me' />
             </div>
-            <p className='sub-heading'>I’m a full-stack software engineer with a passion for empathy and a love for understanding how businesses can deliver greater value to the people they serve.</p>
+            <p className='sub-heading'>I’m a software engineer with a passion for empathy and a love for understanding how businesses can deliver greater value to the people they serve.</p>
             <ListGroup>
               <ListGroup.Item className='d-flex align-items-center'>
                 <div className='check'>
