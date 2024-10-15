@@ -16,7 +16,7 @@ import awsSecuritySpecialty from "./certifications/AWSSecuritySpecialty.png";
 import awsSysOpsAdministratorAssociate from "./certifications/AWSSysOpsAdministratorAssociate.png";
 import awsDeveloperAssociate from "./certifications/AWSDeveloperAssociate.png";
 import microsoftFundamentals from "./certifications/MicrosoftFundamentals.svg";
-import scaledAgile from "./certifications/scaledAgile.png";
+import scaledAgile from "./certifications/ScaledAgile.png";
 
 import careerPlanToday from "./careerPlanToday.png";
 import dyslexiaToolkit from "./dyslexiaToolkit.png";
