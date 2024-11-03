@@ -1,4 +1,4 @@
-import { mobile, backend, creator, web, dmi, elililly, thrivedx, awsSolutionsArchitectProfessional, awsSecuritySpecialty, awsSysOpsAdministratorAssociate, awsDeveloperAssociate, microsoftFundamentals, scaledAgile, doseSchedule, careerPlanToday, dyslexiaToolkit, markMiller, maxwellMorrow, tylerTompkins } from "../assets";
+import { mobile, backend, creator, web, dmi, elililly, thrivedx, awsSolutionsArchitectProfessional, awsSecuritySpecialty, awsSysOpsAdministratorAssociate, awsDeveloperAssociate, microsoftFundamentals, scaledAgile, VueJs, markMiller, maxwellMorrow, tylerTompkins } from "../assets";
 
 export const navLinks = [
   {
@@ -137,7 +137,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: careerPlanToday,
+    image: VueJs,
     link: "https://socialapp.erichoover.org/",
     source_code_link: "https://github.com/ehoover3/SocialMedia",
   },

@@ -18,12 +18,12 @@ import awsDeveloperAssociate from "./certifications/AWSDeveloperAssociate.png";
 import microsoftFundamentals from "./certifications/MicrosoftFundamentals.svg";
 import scaledAgile from "./certifications/ScaledAgile.png";
 
-import careerPlanToday from "./careerPlanToday.png";
-import dyslexiaToolkit from "./dyslexiaToolkit.png";
-import doseSchedule from "./doseSchedule.png";
+import VueJs from "./VueJs.png";
+import AngularJs from "./AngularJs.png";
+import ReactJs from "./ReactJs.png";
 
 import markMiller from "./testimonials/markMiller.jpeg";
 import tylerTompkins from "./testimonials/tylerTompkins.jpeg";
 import maxwellMorrow from "./testimonials/maxwellMorrow.jpeg";
 
-export { logo, backend, creator, mobile, web, github, menu, close, dmi, elililly, thrivedx, awsSolutionsArchitectProfessional, awsSecuritySpecialty, awsSysOpsAdministratorAssociate, awsDeveloperAssociate, microsoftFundamentals, scaledAgile, careerPlanToday, dyslexiaToolkit, doseSchedule, markMiller, maxwellMorrow, tylerTompkins };
+export { logo, backend, creator, mobile, web, github, menu, close, dmi, elililly, thrivedx, awsSolutionsArchitectProfessional, awsSecuritySpecialty, awsSysOpsAdministratorAssociate, awsDeveloperAssociate, microsoftFundamentals, scaledAgile, VueJs, AngularJs, ReactJs, markMiller, maxwellMorrow, tylerTompkins };
