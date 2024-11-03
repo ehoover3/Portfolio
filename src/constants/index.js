@@ -121,67 +121,25 @@ const certifications = [
 
 const projects = [
   {
-    name: "Career Plan Today",
-    description: "Career Plan Today is a comprehensive online platform designed to help individuals create and manage their career paths. It offers a variety of tools and resources to assist users at different stages of their professional journey.",
+    name: "Social App",
+    description: "This social media app features user authentication, database read/write capabilities, and Route 53 CNAME record configuration. Built with Vue 3, Vite, Tailwind CSS, and AWS Amplify, the app integrates Amplify UI components, FontAwesome icons, and CDK for infrastructure as code.",
     tags: [
       {
-        name: "react",
+        name: "VueJs",
         color: "blue-text-gradient",
       },
-      // {
-      //   name: "mongodb",
-      //   color: "green-text-gradient",
-      // },
-      // {
-      //   name: "tailwind",
-      //   color: "pink-text-gradient",
-      // },
+      {
+        name: "AWS Amplify",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
     ],
     image: careerPlanToday,
-    link: "https://www.careerplantoday.com/",
-    source_code_link: "https://github.com/ehoover3/CareerPlanToday",
-  },
-  {
-    name: "Dyslexia Toolkit",
-    description: "The Dyslexia Toolkit is a comprehensive online resource designed to provide information, support, and strategies for individuals with dyslexia, educators, and parents.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      // {
-      //   name: "restapi",
-      //   color: "green-text-gradient",
-      // },
-      // {
-      //   name: "scss",
-      //   color: "pink-text-gradient",
-      // },
-    ],
-    image: dyslexiaToolkit,
-    link: "https://www.dyslexiatoolkit.com/",
-    source_code_link: "https://github.com/ehoover3/DyslexiaToolkit",
-  },
-  {
-    name: "Dose Schedule",
-    description: "Automated medication calendar to replace nurses creating calendars by hand when scheduling Vancomycin.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      // {
-      //   name: "supabase",
-      //   color: "green-text-gradient",
-      // },
-      // {
-      //   name: "css",
-      //   color: "pink-text-gradient",
-      // },
-    ],
-    image: doseSchedule,
-    link: "https://www.doseschedule.com/",
-    source_code_link: "https://github.com/orgs/EmpathyTechnologies/teams/doseschedule",
+    link: "https://socialapp.erichoover.org/",
+    source_code_link: "https://github.com/ehoover3/SocialMedia",
   },
 ];
 
