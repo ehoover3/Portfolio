@@ -122,7 +122,7 @@ const certifications = [
 const projects = [
   {
     name: "Social App",
-    description: "This social media app features user authentication, database read/write capabilities, and Route 53 CNAME record configuration. Built with Vue 3, Vite, Tailwind CSS, and AWS Amplify, the app integrates Amplify UI components, FontAwesome icons, and CDK for infrastructure as code.",
+    description: "This social media app features user authentication, database create/read/update/delete capabilities, and Route 53 CNAME record configuration. Built with Vue 3, Vite, Tailwind CSS, and AWS Amplify, the app integrates Amplify UI components, FontAwesome icons, and CDK for infrastructure as code.",
     tags: [
       {
         name: "VueJs",
