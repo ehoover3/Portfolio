@@ -138,7 +138,7 @@ const projects = [
       },
     ],
     image: VueJs,
-    link: "https://socialapp.erichoover.org/",
+    link: "https://socialchat.erichoover.org/",
     source_code_link: "https://github.com/ehoover3/SocialMedia",
   },
 ];
