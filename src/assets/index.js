@@ -18,9 +18,9 @@ import awsDeveloperAssociate from "./certifications/AWSDeveloperAssociate.png";
 import microsoftFundamentals from "./certifications/MicrosoftFundamentals.svg";
 import scaledAgile from "./certifications/ScaledAgile.png";
 
-import VueJs from "./VueJs.png";
+import VueJs from "./VueJs.svg";
 import AngularJs from "./AngularJs.png";
-import ReactJs from "./ReactJs.png";
+import ReactJs from "./ReactJs.svg";
 
 import markMiller from "./testimonials/markMiller.jpeg";
 import tylerTompkins from "./testimonials/tylerTompkins.jpeg";
