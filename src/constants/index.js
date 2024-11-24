@@ -1,4 +1,4 @@
-import { mobile, backend, creator, web, dmi, elililly, thrivedx, awsSolutionsArchitectProfessional, awsSecuritySpecialty, awsSysOpsAdministratorAssociate, awsDeveloperAssociate, microsoftFundamentals, scaledAgile, VueJs, markMiller, maxwellMorrow, tylerTompkins } from "../assets";
+import { mobile, backend, creator, web, dmi, elililly, thrivedx, awsSolutionsArchitectProfessional, awsSecuritySpecialty, awsSysOpsAdministratorAssociate, awsDeveloperAssociate, microsoftFundamentals, scaledAgile, VueJs, ReactJs, markMiller, maxwellMorrow, tylerTompkins } from "../assets";
 
 export const navLinks = [
   {
@@ -120,6 +120,28 @@ const certifications = [
 ];
 
 const projects = [
+  {
+    name: "Messenger",
+    description: "This instant messenger app features user authentication, database create/read/update/delete capabilities, and Route 53 CNAME record configuration. Built with React, Next, Tailwind CSS, and AWS Amplify.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AWS Amplify",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ReactJs,
+    link: "https://messenger.erichoover.org/",
+    source_code_link: "https://github.com/ehoover3/Messenger",
+  },
+
   {
     name: "Social Chat",
     description: "This social media app features user authentication, database create/read/update/delete capabilities, and Route 53 CNAME record configuration. Built with Vue 3, Vite, Tailwind CSS, and AWS Amplify, the app integrates Amplify UI components, and FontAwesome icons.",
