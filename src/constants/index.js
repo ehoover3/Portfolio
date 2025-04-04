@@ -121,6 +121,28 @@ const certifications = [
 
 const projects = [
   {
+    name: "Loan Officer Chatbot",
+    description: "An interactive chatbot application designed to assist loan officers by providing quick answers to common loan-related questions. Built with React for a seamless user experience and AWS Amplify for cloud-based services, this app also features Route 53 CNAME record configuration for custom domain setup.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AWS Amplify",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ReactJs,
+    link: "https://chatbot.erichoover.org/",
+    source_code_link: "https://github.com/ehoover3/chatbot",
+  },
+
+  {
     name: "Messenger",
     description: "This instant messenger app features user authentication, database create/read/update/delete capabilities, and Route 53 CNAME record configuration. Built with React, Next, Tailwind CSS, and AWS Amplify.",
     tags: [
